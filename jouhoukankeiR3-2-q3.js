@@ -30,7 +30,6 @@ for(var sy = 0; sy < TATE; sy++){
                 Yonda[i] = new Array(5).fill(0);
             }
             var owari = 0;
-            var count = 0;
             while(!(owari)){
                 if(Tairu[y][x] !== '△'){
                     muki = Tairu[y][x];
@@ -57,7 +56,6 @@ for(var sy = 0; sy < TATE; sy++){
                     Kekka[sy][sx] = Kekka[y][x];
                     owari = 1;
                 }
-                count += 1;
             }
             // console.table(Yonda);
             // console.table(Kekka);
